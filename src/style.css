@@ -1,10 +1,13 @@
 /* styles go here */
-.form-field{
+.form-field {
+  margin: 0 10px 10px;
   display: block;
 }
-.form-field{
-  margin: 0px 10px 10px 10px;
+
+.fieldset {
+  margin: 0 0 20px;
 }
-.fieldset{
-  margin: 0px 0px 20px 0px;
+
+.submit {
+  margin-top: 20px;
 }
