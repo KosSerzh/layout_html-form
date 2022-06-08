@@ -10,7 +10,7 @@
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body class="body">
+  <body>
     <h1>HTML Form</h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fieldset requireds">
@@ -81,7 +81,7 @@
 
       <fieldset class="fieldset optional">
         <legend>An interesting fact about you!</legend>
-        <div class="pets">
+        <div class="form-field">
           Do you like cats ?
           <label>
             Yes
@@ -118,11 +118,9 @@
         <label class="form-field comments">
           Comments :
           <textarea 
-            class="form-field"
             name="comments"
             cols="30" 
-            rows="4" 
-            placeholder="Enter your message 5-100 symbols"
+            rows="2" 
             minlength="5"
             maxlength="100"
             autocomplete="off"
